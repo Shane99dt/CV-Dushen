@@ -31,7 +31,7 @@ body{
 }
 
 #sec-profile{
-  margin: 10px 0 0 50px;
+  margin: 40px 0 0 50px;
 }
 
 #profile{
@@ -58,7 +58,7 @@ body{
 #aside-left{
   float: left;
   margin-left: 50px;
-  width: 55%;
+  /* width: 55%; */
 }
 
 #sec-formations{
@@ -94,24 +94,39 @@ body{
 
 }
 
-.vl{
-  border-left: 1px solid black;
-  height: 95%;
-  position: absolute;
-  left: 62%;
-  margin-left: -3px;
-  top: 50%;
+/* table */
+
+table {
+  border-collapse: collapse;
 }
+
+tr {
+  border: none;
+}
+
+td:first-child {
+  border-right: solid 1px black;
+}
+
+#table-right{
+  padding: 0;
+  margin: 0;
+}
+/* table finished */
 
 #aside-right{
   float: inline-end;
-  margin-left: 475px;
+  padding: 0;
 }
 
 #sec-competences{
   font-family: 'Lato', sans-serif;
   font-size: 12px;
   line-height: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 /* need to add progress bars */
+
+
