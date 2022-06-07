@@ -19,7 +19,7 @@ body{
 
 }
 
-#topic{
+#main-topic{
   font-family: 'Lato', sans-serif;
   letter-spacing: 5px;
   font-size: 14px;
@@ -58,7 +58,7 @@ body{
 #aside-left{
   float: left;
   margin-left: 50px;
-  width: 50%;
+  width: 55%;
 }
 
 #sec-formations{
@@ -73,10 +73,11 @@ body{
   src: url(./Hatton_-_Free_for_personal_use/Hatton\ -\ Free\ for\ personal\ use/Hatton-Medium.otf) format("opentype");
 }
 
-#formations-topic{
+.topics{
   font-family: Hatton;
   letter-spacing: 4px;
   font-size: 20px;
+  color: #464a4e;
 }
 
 .formations{
@@ -92,3 +93,25 @@ body{
   font-weight: bold;
 
 }
+
+.vl{
+  border-left: 1px solid black;
+  height: 95%;
+  position: absolute;
+  left: 62%;
+  margin-left: -3px;
+  top: 50%;
+}
+
+#aside-right{
+  float: inline-end;
+  margin-left: 475px;
+}
+
+#sec-competences{
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* need to add progress bars */
