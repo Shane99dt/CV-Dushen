@@ -19,9 +19,19 @@ body{
 
 #topic{
   font-family: 'Lato', sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: LeJourScript;
+  src: url(./le_jour_script/Le\ Jour\ Script.ttf);
 }
 
 #sec-profile{
-  
+  margin: 10px 0 0 50px;
+}
+
+#profile{
+  font-family: LeJourScript;
 }
