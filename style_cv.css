@@ -15,6 +15,8 @@ body{
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 4px;
+  color: #464a4e;
+
 }
 
 #topic{
@@ -43,6 +45,9 @@ body{
   font-size: 12px;
   margin: 0;
   padding: 0;
+  color: #464a4e;
+  line-height: 20px;
+
 }
 
 #hr1{
@@ -54,4 +59,16 @@ body{
   float: left;
   margin-left: 50px;
   width: 50%;
+}
+
+@font-face {
+  font-family: Hatton;
+  src: url(./Hatton_-_Free_for_personal_use/Hatton\ -\ Free\ for\ personal\ use/Hatton-Medium.otf) format("opentype");
+}
+
+#formations-topic{
+  font-family: Hatton;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #464a4e;
 }
