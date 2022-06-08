@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,19 +13,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <!-- name font end -->
     <!-- topic font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
     <!-- topic font end -->
-
-
   </head>
   <body>
     <!-- creating the header of the cv -->
     <section id="sec-name">
-      <span id="name">Dushen MANIKBOWE</span><br>
-      <span id="main-topic">DÉVELOPPEUR WEB JUNIOR EN ALTERNANCE</span>
+      <h1 id="name">Dushen MANIKBOWE</h1><br>
+      <h2 id="main-topic">DÉVELOPPEUR WEB JUNIOR EN ALTERNANCE</h2>
       <!-- Add the qr codes of github & linkedIN -->
+      <nav>
+        <!-- Qr and the logos -->
+      </nav>
     </section>
 
     <!-- Profile section start -->
@@ -49,9 +48,13 @@
     <!-- try to solve the center line with a table-->
     <table>
       <tr>
+        <td>space</td>
+        <td>space right</td>
+      </tr>
+      <tr>
         <td id="table-left">
           <!-- formations section start -->
-          <aside id="aside-left">
+          <!-- <aside id="aside-left"> -->
             <section id="sec-formations">
               <span class="topics">FORMATIONS</span>
               <!-- formations -->
@@ -123,12 +126,12 @@
                 </ul>
               </article>
             </section>
-          </aside>
+          <!-- </aside> -->
           <!-- formations section end -->
         </td>
         <td id="table-right">
           <!-- right side of the page -->
-          <aside id="aside-right">
+          <!-- <aside id="aside-right"> -->
             <section id="sec-competences">
               <span class="topics">COMPÉTENCES</span>
               <ul id="competences-list">
@@ -137,6 +140,10 @@
                 <li>MySQL</li>
               </ul>
               <!-- need to add progress bars -->
+              <label for="file">File progress:</label>
+
+              <progress id="file" max="100" value="70"> 70% </progress>
+
             </section>
 
             <hr class="hr2">
@@ -188,10 +195,155 @@
 
 
             </section>
-          </aside>
+          <!-- </aside> -->
         </td>
       </tr>
     </table>
+
+
+  <!-- adding the correct structure -->
+  <!-- header -->
+  <header>
+    <h1>
+      Dushen manikbowe
+    </h1>
+    <h2>
+      Développeur web junior en alternance
+    </h2>
+    <nav>
+      <a href="https://github.com/Shane99dt">
+        <img src="./images/icons8-github-30.png" alt="github-logo">
+      </a>
+      <img src="./images/github-dushen-qr-2.png" alt="github-qr" height="75px" width="75px">
+
+      <a href="https://www.linkedin.com/in/dushen-manikbowe-1b72571b9/">
+        <img src="./images/icons8-linkedin-32.png" alt="logo-linkedIn">
+      </a>
+      <img src="./images/linkedIn-dushen-qr-2.png" alt="linkedIn-qr" height="75px" width="75px">
+    </nav>
+  </header>
+
+  <!-- header end -->
+
+  <main>
+    <!-- profile section -->
+    <section id="sec-profil">
+      <h3 id="profil">Profil</h3>
+      <p id="profil-des"></p>
+    </section>
+
+    <!-- profile section end -->
+
+    <!-- formations section -->
+    <section id="sec-formations">
+      <h3 class="topic topic-formations">Formations</h3>
+      <article></article>
+      <article></article>
+      <article></article>
+      <article></article>
+      <article></article>
+      <article></article>
+      <article></article>
+    </section>
+
+    <!-- formation section end -->
+    <aside>competences section
+
+      <!--  -->
+      <section id="sec-competences">
+        <h3 class="topic topic-competences">Compétences</h3>
+        <ul>
+          <li>
+            <span class="list-competences">
+              html/css
+            </span>
+            <progress id="file" max="100" value="60"></progress>
+          </li>
+          <li>
+            <span class="list-competences">
+              JavaScript
+            </span>
+            <progress id="file" max="100" value="40"></progress>
+          </li>
+          <li>
+            <span class="list-competences">
+              MySQL
+            </span>
+            <progress id="file" max="100" value="30"></progress>
+          </li>
+        </ul>
+      </section>
+
+      <!-- competences section end -->
+      <hr>
+      <!-- expériences prof section  -->
+      <section id="sec-exp-pro">
+        <h3 class="topic topic-exp-pro">Expériences professionnelles</h3>
+        <article>
+          <h4>hôte de caisse stagiare (accueil clients et usagers)</h4>
+          <p>Shanus Exo - Morsang sur orge</p>
+          <h4>Avril 2021</h4>
+        </article>
+        <article>
+          <h4>Médiateur social stagiare (accueil clients et usagers)</h4>
+          <p>La banque postale - Ris orangis</p>
+          <h4>Janvier 2021</h4>
+        </article>
+      </section>
+
+      <!-- expériences prof section end -->
+      <hr>
+      <!-- Section languages -->
+      <section id="sec-langues">
+        <h3 class="topic topic-langues">langues</h3>
+        <li>
+          <span class="list-langues">Anglais</span>
+          <progress id="file" max="100" value="80"></progress>
+        </li>
+        <li>
+          <span class="list-langues">Cinghalais</span>
+          <progress id="file" max="100" value="100"></progress>
+        </li>
+      </section>
+      <!-- section languages end -->
+      <section id="sec-hobbies">
+        <h3 class="topic topic-hobbies">
+          Hobbies
+        </h3>
+        <ul>
+          <li>
+            <span class="list-hobbies">Natation</span>
+            <span>
+              16 ans
+            </span>
+          </li>
+          <li>
+            <span class="list-hobbies">
+              Cricket
+            </span>
+            <span>12 ans</span>
+          </li>
+        </ul>
+      </section>
+      <!-- section hobbies end  -->
+      <hr>
+      <!-- section address -->
+      <section id="sec-address">
+        <article>
+          <img src="" alt="">
+          <span class="list-address">06 05 74 68 32</span>
+        </article>
+        <article>
+          <img src="" alt="">
+          <span class="list-address">dushen1999thilaksha@gmail.com</span>
+        </article>
+        <article>
+          <img src="" alt="">
+          <span class="list-address">28 rue de savigny,<br>91390, Morsang sur orge</span>
+        </article>
+      </section>
+    </aside>
+  </main>
 
   </body>
 </html>
