@@ -1,145 +1,3 @@
-body{
-  margin: 0;
-  padding: 0;
-}
-
-#sec-name{
-  margin-top: 5px;
-  padding: 40px 50px 50px;
-  text-align: center;
-  background-color: #cbb28e;
-}
-
-#name{
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  font-weight: 500;
-  letter-spacing: 4px;
-  padding: 0;
-  margin: 0;
-  color: #464a4e;
-
-}
-
-#main-topic{
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 5px;
-  font-size: 14px;
-  padding: 0;
-  margin: 0;
-}
-
-@font-face {
-  font-family: LeJourScript;
-  src: url(./le_jour_script/Le\ Jour\ Script.ttf);
-}
-
-#sec-profile{
-  margin: 40px 0 0 50px;
-}
-
-#profile{
-  font-family: LeJourScript;
-  color: #cbb28e;
-  font-size: 25px;
-}
-
-#profile-des{
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
-  color: #464a4e;
-  line-height: 20px;
-
-}
-
-#hr1{
-  width: 47%;
-  margin-left: 50px;
-}
-
-#aside-left{
-  float: left;
-  margin-left: 50px;
-  /* width: 55%; */
-}
-
-#sec-formations{
-  color: #464a4e;
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
-
-}
-
-@font-face {
-  font-family: Hatton;
-  src: url(./Hatton_-_Free_for_personal_use/Hatton\ -\ Free\ for\ personal\ use/Hatton-Medium.otf) format("opentype");
-}
-
-.topics{
-  font-family: Hatton;
-  letter-spacing: 4px;
-  font-size: 20px;
-  color: #464a4e;
-}
-
-.formations{
-  margin: 6px 0 20px;
-}
-
-.duration-formation{
-  color: #706f6f;
-  font-weight: bold;
-}
-
-.formation-title{
-  font-weight: bold;
-}
-
-/* table */
-
-table {
-  border-collapse: collapse;
-}
-
-tr {
-  border: none;
-}
-
-td:first-child {
-  border-right: solid 1px black;
-}
-
-#table-right{
-  padding: 0;
-  margin: 0;
-}
-/* table finished */
-
-#aside-right{
-  float: right;
-  padding: 0;
-}
-
-#sec-competences{
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
-  line-height: 20px;
-  padding: 0;
-  margin: 0;
-}
-
-/* need to add progress bars */
-
-
-
-
-
-
-
-
-/* after the good structure */
 
 @font-face {
   font-family: LeJourScript;
@@ -227,9 +85,9 @@ nav{
 
 .sec-formations{
   margin: 20px 0 50px 50px;
-  width: 55%;
+  width: 50%;
   border-right: 1px solid black;
-  padding: 10px 15px 0 0 ;
+  padding: 10px 5px 0 0 ;
   color: #464a4e;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
@@ -243,11 +101,32 @@ nav{
   text-transform: uppercase;
 }
 
+.formations{
+  margin: 6px 0 20px;
+}
+
+.duration-formation{
+  color: #706f6f;
+  font-weight: bold;
+}
+
+.formation-title{
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+
 
 
 /* aside */
 
 aside{
-  float: right;
-  width: 50%;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.container{
+  display: flex;
+
 }
