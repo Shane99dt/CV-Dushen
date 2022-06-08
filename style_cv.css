@@ -69,7 +69,7 @@ nav{
 
 .profil-des{
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  /* font-size: 12px; */
   margin: 0;
   padding: 0;
   color: #464a4e;
@@ -90,7 +90,7 @@ nav{
   padding: 10px 5px 0 0 ;
   color: #464a4e;
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 
 .topic{
@@ -99,25 +99,26 @@ nav{
   font-size: 20px;
   color: #464a4e;
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
 .formations{
-  margin: 6px 0 20px;
+  margin: 0 0 25px 0;
 }
 
 .duration-formation{
   color: #706f6f;
   font-weight: bold;
+  margin: 0 0 10px 0;
 }
+
+
 
 .formation-title{
   font-weight: bold;
   padding: 0;
-  margin: 0;
+  margin: 10px 0 10px 0;
 }
-
-
-
 
 /* aside */
 
@@ -128,5 +129,33 @@ aside{
 
 .container{
   display: flex;
+}
 
+.sec-competences{
+  margin: 30px 10px 10px 15px ;
+}
+
+.sec-exp-pro, .sec-langues, .sec-hobbies{
+  margin: 20px 10px 10px 15px ;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+/* competences */
+
+.progress-file{
+  position: absolute;
+  right: 30px;
+}
+
+
+
+
+/* hobbies */
+
+.hobbies-years{
+  position: absolute;
+  right: 100px;
 }
