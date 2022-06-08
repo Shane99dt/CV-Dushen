@@ -95,7 +95,6 @@ body{
 
 .formation-title{
   font-weight: bold;
-
 }
 
 /* table */
@@ -119,7 +118,7 @@ td:first-child {
 /* table finished */
 
 #aside-right{
-  float: inline-end;
+  float: right;
   padding: 0;
 }
 
@@ -135,4 +134,120 @@ td:first-child {
 
 
 
+
+
+
+
+
 /* after the good structure */
+
+@font-face {
+  font-family: LeJourScript;
+  src: url(./le_jour_script/Le\ Jour\ Script.ttf);
+}
+
+@font-face {
+  font-family: Hatton;
+  src: url(./Hatton_-_Free_for_personal_use/Hatton\ -\ Free\ for\ personal\ use/Hatton-Medium.otf) format("opentype");
+}
+
+/* header */
+header{
+  margin-top: 100px;
+  /* border: 1px solid black; */
+  height: 190px;
+  width: 100%;
+  background-color: #cbb28e;
+  color: #464a4e;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+
+}
+
+.name1{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 4px;
+  font-size: 34px;
+  /* padding: 0; */
+  margin: 40px 0 20px;
+
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 0;
+  margin: 0 40px 0 0;
+}
+
+/* header end */
+
+/* main */
+
+.sec-profil{
+  margin: 40px 40px 20px 50px;
+}
+
+.profil{
+  font-family: LeJourScript;
+  color: #cbb28e;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+
+.profil-des{
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: #464a4e;
+  line-height: 20px;
+}
+
+.hr1{
+  margin: 0 0 0 50px;
+  width: 50%;
+}
+
+/* formation section */
+
+.sec-formations{
+  margin: 20px 0 50px 50px;
+  width: 55%;
+  border-right: 1px solid black;
+  padding: 10px 15px 0 0 ;
+  color: #464a4e;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+
+.topic{
+  font-family: Hatton;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #464a4e;
+  text-transform: uppercase;
+}
+
+
+
+/* aside */
+
+aside{
+  float: right;
+  width: 50%;
+}

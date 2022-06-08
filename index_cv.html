@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dushen CV</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style_cv.css">
     <!-- font links -->
     <!-- name font -->
@@ -201,25 +202,41 @@
     </table>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- adding the correct structure -->
   <!-- header -->
   <header>
-    <h1>
+    <h1 class="name1">
       Dushen manikbowe
     </h1>
-    <h2>
+    <h2 class="title">
       Développeur web junior en alternance
     </h2>
     <nav>
       <a href="https://github.com/Shane99dt">
         <img src="./images/icons8-github-30.png" alt="github-logo">
       </a>
-      <img src="./images/github-dushen-qr-2.png" alt="github-qr" height="75px" width="75px">
+      <img src="./images/github-dushen-qr-2.png" alt="github-qr" height="60px" width="60px">
 
       <a href="https://www.linkedin.com/in/dushen-manikbowe-1b72571b9/">
         <img src="./images/icons8-linkedin-32.png" alt="logo-linkedIn">
       </a>
-      <img src="./images/linkedIn-dushen-qr-2.png" alt="linkedIn-qr" height="75px" width="75px">
+      <img src="./images/linkedIn-dushen-qr-2.png" alt="linkedIn-qr" height="60px" width="60px">
     </nav>
   </header>
 
@@ -227,49 +244,117 @@
 
   <main>
     <!-- profile section -->
-    <section id="sec-profil">
-      <h3 id="profil">Profil</h3>
-      <p id="profil-des"></p>
+    <section class="sec-profil">
+      <h3 class="profil">Profil</h3>
+      <p class="profil-des">
+        Je suis Développeur web junior en formation afin d'obtenir un titre professionnel. Je recherche une entreprise pour <strong>un
+        contrat
+        d'apprentissage en alternance de 12 mois à partir du 15 septembre 2022 (8000 euros de primes).</strong>
+        1 semaine en formation et 3 semaines en entreprise. J'ai appris à coder dès mon plus jeune âge dans divers langages
+        informatiques HTML, CSS et Javascript. Mon objectif est de maîtriser les différentes étapes techniques de la création
+        d'un site
+        ou d'une application web ; de la compréhension des besoins utilisateurs, au développement frontend et backend.
+      </p>
     </section>
 
     <!-- profile section end -->
-
+    <hr class="hr1">
     <!-- formations section -->
-    <section id="sec-formations">
+    <section class="sec-formations">
       <h3 class="topic topic-formations">Formations</h3>
-      <article></article>
-      <article></article>
-      <article></article>
-      <article></article>
-      <article></article>
-      <article></article>
-      <article></article>
+      <article class="formations">
+        <span class="duration-formation">Mai 2022 - Présent</span><br>
+        <span class="formation-title">Développeur web et web mobile</span><br>
+        <ul>
+          <li>KONEXIO - Paris : Se former au métier de développeur</li>
+          <li>Préparation pour le titre développeur web et mobile RNCP niveau V
+          (équivalent Bac+2)</li>
+          <li>Langages utilisés : HTML, CSS, Javascript, JQuery librairie : Bootstrap,
+          frameworks : React JS, Node JS, Express, bases de données :
+          MongoDB et SQL</li>
+        </ul>
+      </article>
+
+      <article class="formations">
+        <span class="duration-formation">Janvier - Mars 2022</span><br>
+        <span class="formation-title">Apprendre la programmation avec JavaScript</span><br>
+        <ul>
+          <li>Sur Openclassrooms (e-learning)</li>
+        </ul>
+        <span class="formation-title">Apprenez à créer votre site web avec HTML5 et CSS3</span><br>
+        <ul>
+          <li>Sur Openclassrooms (e-learning)</li>
+        </ul>
+      </article>
+
+      <article class="formations">
+        <span class="duration-formation">Septembre 2021 - Février 2022</span><br>
+        <span class="formation-title">Le cours complet de développeur Web Fullstack 2020</span><br>
+        <ul>
+          <li>Sur Udemy.com : enseigné par M. Kalob Taulien (e-learning)</li>
+        </ul>
+      </article>
+
+      <article class="formations">
+        <span class="duration-formation">Juin 2021 - Septembre 2021</span><br>
+        <span class="formation-title">Introduction à l'informatique du CS50</span><br>
+        <ul>
+          <li>KONEXIO - Paris : Se former au métier de développeur</li>
+        </ul>
+      </article>
+
+      <article class="formations">
+        <span class="duration-formation">Octobre 2020 - Mai 2021
+        </span><br>
+        <span class="formation-title">Apprentissage du Français : Stagiaire de la formation professionnelle PEE
+        </span><br>
+        <ul>
+          <li>ARIES - Sainte Geneviève des Bois : Elaboration Projet professionnel</li>
+          <li>Stages en Entreprise</li>
+        </ul>
+      </article>
+
+      <article class="formations">
+        <span class="duration-formation">Octobre 2018 - Février 2019</span><br>
+        <span class="formation-title">Formation Certifiante en Maintenance Informatique</span><br>
+        <ul>
+          <li>National Institute of Business Management - Sri Lanka</li>
+        </ul>
+      </article>
+
+      <article class="formations">
+        <span class="duration-formation">2016 - 2018</span><br>
+        <span class="formation-title">BAC Scientifique</span><br>
+        <ul>
+          <li>President's College, kotte - Sri Lanka</li>
+        </ul>
+      </article>
     </section>
 
     <!-- formation section end -->
     <aside>competences section
 
       <!--  -->
-      <section id="sec-competences">
+      <section class="sec-competences">
         <h3 class="topic topic-competences">Compétences</h3>
         <ul>
           <li>
             <span class="list-competences">
               html/css
             </span>
-            <progress id="file" max="100" value="60"></progress>
+            <progress class="file" max="100" value="60"></progress>
           </li>
           <li>
             <span class="list-competences">
               JavaScript
             </span>
-            <progress id="file" max="100" value="40"></progress>
+            <progress class="file" max="100" value="40"></progress>
           </li>
           <li>
             <span class="list-competences">
               MySQL
             </span>
-            <progress id="file" max="100" value="30"></progress>
+            <progress class="file" max="100" value="30"></progress>
           </li>
         </ul>
       </section>
@@ -277,7 +362,7 @@
       <!-- competences section end -->
       <hr>
       <!-- expériences prof section  -->
-      <section id="sec-exp-pro">
+      <section class="sec-exp-pro">
         <h3 class="topic topic-exp-pro">Expériences professionnelles</h3>
         <article>
           <h4>hôte de caisse stagiare (accueil clients et usagers)</h4>
@@ -294,19 +379,19 @@
       <!-- expériences prof section end -->
       <hr>
       <!-- Section languages -->
-      <section id="sec-langues">
+      <section class="sec-langues">
         <h3 class="topic topic-langues">langues</h3>
         <li>
           <span class="list-langues">Anglais</span>
-          <progress id="file" max="100" value="80"></progress>
+          <progress class="file" max="100" value="80"></progress>
         </li>
         <li>
           <span class="list-langues">Cinghalais</span>
-          <progress id="file" max="100" value="100"></progress>
+          <progress class="file" max="100" value="100"></progress>
         </li>
       </section>
       <!-- section languages end -->
-      <section id="sec-hobbies">
+      <section class="sec-hobbies">
         <h3 class="topic topic-hobbies">
           Hobbies
         </h3>
@@ -328,7 +413,7 @@
       <!-- section hobbies end  -->
       <hr>
       <!-- section address -->
-      <section id="sec-address">
+      <section class="sec-address">
         <article>
           <img src="" alt="">
           <span class="list-address">06 05 74 68 32</span>
