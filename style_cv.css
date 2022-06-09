@@ -9,6 +9,11 @@
   src: url(./Hatton_-_Free_for_personal_use/Hatton\ -\ Free\ for\ personal\ use/Hatton-Medium.otf) format("opentype");
 }
 
+body{
+  font-family: 'Lato', sans-serif;
+
+}
+
 /* header */
 header{
   margin-top: 10px;
@@ -67,9 +72,13 @@ nav{
   margin: 0 0 20px 0;
 }
 
+strong{
+  font-weight: bold;
+}
+
 .profil-des{
   font-family: 'Lato', sans-serif;
-  /* font-size: 12px; */
+  font-size: 13px;
   margin: 0;
   padding: 0;
   color: #464a4e;
@@ -90,7 +99,7 @@ nav{
   padding: 10px 5px 0 0 ;
   color: #464a4e;
   font-family: 'Lato', sans-serif;
-  /* font-size: 12px; */
+  font-size: 13px;
 }
 
 .topic{
@@ -125,6 +134,8 @@ nav{
 aside{
   width: 40%;
   justify-content: flex-end;
+  font-size: 13px;
+
 }
 
 .container{
@@ -148,14 +159,46 @@ ul{
 .progress-file{
   position: absolute;
   right: 30px;
+  accent-color: #cbb28e;
+  /* border: transparent; */
+  height: 10px;
 }
 
+/* experiences professionnel */
+.sec-exp-pro h4{
+ text-transform: uppercase;
+  color: #464a4e;
+  font-weight: bold;
+  /* margin: 10px 0; */
+  line-height: 18px;
+}
 
+.sec-exp-pro p{
+  margin: 05px 0;
+}
 
+.sec-exp-pro article{
+  margin: 15px 0;
+}
 
 /* hobbies */
 
 .hobbies-years{
   position: absolute;
   right: 100px;
+}
+
+
+
+/* address */
+
+.sec-address{
+  margin: 20px 0 20px 15px;
+}
+
+.sec-address article{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 5px 0;
 }
