@@ -90,6 +90,12 @@ strong{
   width: 50%;
 }
 
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 /* formation section */
 
 .sec-formations{
@@ -156,6 +162,10 @@ ul{
 
 /* competences */
 
+.sec-competences ul, .sec-langues ul, .sec-hobbies ul{
+  padding-left: 20px;
+}
+
 .progress-file{
   position: absolute;
   right: 30px;
@@ -193,12 +203,13 @@ ul{
 /* address */
 
 .sec-address{
-  margin: 20px 0 20px 15px;
+  padding: 20px 0 20px 20px;
 }
 
 .sec-address article{
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
+  align-items: center;
+  gap: 30px;
   margin: 5px 0;
 }
